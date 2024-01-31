@@ -4,7 +4,7 @@
   "name": "esp32-audio",
   "content": "",
   "created_at": "2024-01-31 12:51:23",
-  "updated_at": "2024-01-31 17:08:43",
+  "updated_at": "2024-01-31 21:28:30",
   "stick": "",
   "documents": [
     {
@@ -21,7 +21,7 @@
         "1c3eec5922144b89b6f3c4e36e4a855f": 1,
         "74ef43f116eb4fb5a8c764f63e0b5543": 1,
         "bb009484ef804a24ac5d18c54b249586": 12,
-        "490132ac38af4e1bae74e2070d345d49": 2,
+        "490132ac38af4e1bae74e2070d345d49": 1,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 14,
         "5cbe824183374fac8e4c1ae848199ce3": 1,
         "49467e8195dd43198f34f869d77210a6": 1,
@@ -334,20 +334,6 @@
           }
         ],
         [
-          "MCP73831/2",
-          2,
-          "SOT23-5",
-          "U2,U5",
-          {
-            "Contributor": "qarnet",
-            "Supplier": "",
-            "spiceSymbolName": "MCP73831/2",
-            "Manufacturer Part": "",
-            "puuid": "c72e367a66e64b3fb6ce7b0bfbe00116",
-            "uuid": "490132ac38af4e1bae74e2070d345d49"
-          }
-        ],
-        [
           "AMS1117-3.3",
           1,
           "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
@@ -382,18 +368,65 @@
             "puuid": "7069bbedface4deeb4e6a66a59ab1324",
             "uuid": "74ef43f116eb4fb5a8c764f63e0b5543"
           }
+        ],
+        [
+          "MCP73831/2",
+          1,
+          "SOT23-5",
+          "U5",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "",
+            "spiceSymbolName": "MCP73831/2",
+            "Manufacturer Part": "",
+            "puuid": "c72e367a66e64b3fb6ce7b0bfbe00116",
+            "uuid": "490132ac38af4e1bae74e2070d345d49"
+          }
         ]
       ],
-      "updateTime": 1706717323,
+      "updateTime": 1706724768,
       "createTime": 1706701884,
       "histories": [],
       "created_at": "2024-01-31 12:51:24",
-      "updated_at": "2024-01-31 17:08:43"
+      "updated_at": "2024-01-31 19:12:48"
+    },
+    {
+      "uuid": "57b1e22092dc17c2be266efaa9eb97b7",
+      "puuid": "5bc9f371f061122818a13f987e51f474",
+      "title": "PCB_esp32-audio",
+      "filename": "PCB_esp32-audio.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 14,
+        "ce6db59b9ced4b0f8b498b8e74e1a0ea": 2,
+        "cd2362390c7d4068b20f843ed65bf508": 1,
+        "bb58017825004e82a67969cb0b814f09": 1,
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
+        "bce4bcfcccfb42a296f7a392ab0b7199": 1,
+        "10d2137ebe5c4377a35307dcba947a02": 1,
+        "daacbe2eec304950b61eef2efe596556": 2,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
+        "398691f1f785460098bbe5ee6590333c": 12,
+        "d739bdb3342341d8a150960e782e6f99": 1,
+        "c72e367a66e64b3fb6ce7b0bfbe00116": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "7069bbedface4deeb4e6a66a59ab1324": 1,
+        "105d549b433940fabcf03ce5f5faeff8": 1
+      },
+      "BOM": [],
+      "updateTime": 1706732910,
+      "createTime": 1706719193,
+      "histories": [],
+      "created_at": "2024-01-31 17:39:53",
+      "updated_at": "2024-01-31 21:28:30"
     }
   ],
   "sort": [],
   "title": "esp32-audio",
   "foldername": "esp32-audio",
   "schfilename": "esp32-audio.json",
-  "schfilemtime": 1706717323603
+  "schfilemtime": 1706724768091
 }
