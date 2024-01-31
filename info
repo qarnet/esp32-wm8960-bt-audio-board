@@ -1,0 +1,368 @@
+{
+  "uuid": "5bc9f371f061122818a13f987e51f474",
+  "path": "Offline/esp32-audio",
+  "name": "esp32-audio",
+  "content": "",
+  "created_at": "2024-01-31 12:51:23",
+  "updated_at": "2024-01-31 15:03:54",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "75b2400d8f0fc7bf280bf694dbd29695",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "63e9c233d355476e91589fc94370163a": 1,
+        "6563fb44ecd04ba1a74f342295050efb": 1,
+        "36879d8c46424f27b041ee79ee2ba5d4": 1,
+        "1c3eec5922144b89b6f3c4e36e4a855f": 1,
+        "74ef43f116eb4fb5a8c764f63e0b5543": 1,
+        "bb009484ef804a24ac5d18c54b249586": 8,
+        "c3996a549a5644c3a3cf9255fa1ea4fc": 3,
+        "490132ac38af4e1bae74e2070d345d49": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 13,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "49467e8195dd43198f34f869d77210a6": 1,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "5a9ec2085ad6436d86701332d4451b76": 1,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BH-18650-B1BA002",
+          1,
+          "BATTERY-SMD_18650-1S-L77.1-W20.7-1",
+          "BT1",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2988620",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Manufacturer Part": "BH-18650-B1BA002",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BH-18650-B1BA002",
+            "puuid": "105d549b433940fabcf03ce5f5faeff8",
+            "uuid": "36879d8c46424f27b041ee79ee2ba5d4"
+          }
+        ],
+        [
+          "100u",
+          3,
+          "CAP-D6.3×H5.5",
+          "C1,C8,C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D6.3×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "ce6db59b9ced4b0f8b498b8e74e1a0ea",
+            "uuid": "c3996a549a5644c3a3cf9255fa1ea4fc"
+          }
+        ],
+        [
+          "4.7u",
+          6,
+          "C0603",
+          "C2,C3,C12,C13,C15,C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "C0603",
+          "C5,C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0603",
+          "C6,C10,C11,C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "PJ-326-3A",
+          1,
+          "AUDIO-SMD_PJ-326-3A",
+          "CN2",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2910522",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "PJ-326-3A",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PJ-326-3A",
+            "puuid": "cd2362390c7d4068b20f843ed65bf508",
+            "uuid": "49467e8195dd43198f34f869d77210a6"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C328592",
+            "Manufacturer": "BLUE ROCKET",
+            "Manufacturer Part": "1N4007W",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          1,
+          "HDR-F-2.54_1X15",
+          "H1",
+          {
+            "Supplier Part": "C124408",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x15",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
+          }
+        ],
+        [
+          "WM8960CGEFL_V",
+          1,
+          "QFN50P500X500X100-33N",
+          "IC1",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "",
+            "spiceSymbolName": "WM8960CGEFL_V",
+            "Manufacturer Part": "",
+            "puuid": "10d2137ebe5c4377a35307dcba947a02",
+            "uuid": "6563fb44ecd04ba1a74f342295050efb"
+          }
+        ],
+        [
+          "K2-3.6×6.1_SMD",
+          2,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY1,KEY2",
+          {
+            "Supplier Part": "C118141",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "K2-1107ST-A4SW-06",
+            "Contributor": "LCEDA_Lib",
+            "制造商": "韩国韩荣",
+            "spiceSymbolName": "K2-3.6×6.1_SMD",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "5k1",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "470",
+          3,
+          "R0603",
+          "R3,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "2k",
+          1,
+          "R0603",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R5,R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D-N4",
+          1,
+          "WIFIM-SMD_39P-L25.5-W18.0-P1.27",
+          "U1",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2973684",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Manufacturer Part": "ESP32-WROOM-32D-N4",
+            "spiceSymbolName": "ESP32-WROOM-32D-N4",
+            "puuid": "d739bdb3342341d8a150960e782e6f99",
+            "uuid": "63e9c233d355476e91589fc94370163a"
+          }
+        ],
+        [
+          "MCP73831/2",
+          2,
+          "SOT23-5",
+          "U2,U5",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "",
+            "spiceSymbolName": "MCP73831/2",
+            "Manufacturer Part": "",
+            "puuid": "c72e367a66e64b3fb6ce7b0bfbe00116",
+            "uuid": "490132ac38af4e1bae74e2070d345d49"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "sourceId": "dwIGgezVh",
+            "timeStamp": "1476261164",
+            "Supplier": "LCSC",
+            "Manufacturer": "AMS",
+            "Manufacturer Part": "AMS1117-3.3",
+            "Supplier Part": "C6186",
+            "JLCPCB Part Class": "Basic Part",
+            "Contributor": "qarnet",
+            "spiceSymbolName": "AMS1117-3.3",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "1c3eec5922144b89b6f3c4e36e4a855f"
+          }
+        ],
+        [
+          "YTC-TC6-268",
+          1,
+          "TYPE-C-SMD_YIYUAN_YTC-TC6-268",
+          "U4",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5260484",
+            "Manufacturer": "YIYUAN(怡远)",
+            "Manufacturer Part": "YTC-TC6-268",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "YTC-TC6-268",
+            "puuid": "7069bbedface4deeb4e6a66a59ab1324",
+            "uuid": "74ef43f116eb4fb5a8c764f63e0b5543"
+          }
+        ]
+      ],
+      "updateTime": 1706709834,
+      "createTime": 1706701884,
+      "histories": [],
+      "created_at": "2024-01-31 12:51:24",
+      "updated_at": "2024-01-31 15:03:54"
+    }
+  ],
+  "sort": [],
+  "title": "esp32-audio",
+  "foldername": "esp32-audio",
+  "schfilename": "esp32-audio.json",
+  "schfilemtime": 1706709834958
+}
