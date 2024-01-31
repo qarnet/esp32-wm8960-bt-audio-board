@@ -4,7 +4,7 @@
   "name": "esp32-audio",
   "content": "",
   "created_at": "2024-01-31 12:51:23",
-  "updated_at": "2024-01-31 15:03:54",
+  "updated_at": "2024-01-31 16:03:55",
   "stick": "",
   "documents": [
     {
@@ -20,15 +20,15 @@
         "36879d8c46424f27b041ee79ee2ba5d4": 1,
         "1c3eec5922144b89b6f3c4e36e4a855f": 1,
         "74ef43f116eb4fb5a8c764f63e0b5543": 1,
-        "bb009484ef804a24ac5d18c54b249586": 8,
-        "c3996a549a5644c3a3cf9255fa1ea4fc": 3,
+        "bb009484ef804a24ac5d18c54b249586": 12,
         "490132ac38af4e1bae74e2070d345d49": 2,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 13,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 14,
         "5cbe824183374fac8e4c1ae848199ce3": 1,
         "49467e8195dd43198f34f869d77210a6": 1,
-        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
         "5a9ec2085ad6436d86701332d4451b76": 1,
-        "5c1036b53a4146e4841df4ed0a9de8f0": 2
+        "5c1036b53a4146e4841df4ed0a9de8f0": 2,
+        "c3996a549a5644c3a3cf9255fa1ea4fc": 2,
+        "2b1d6f6206f245ac8ed9756e85e50fd9": 1
       },
       "BOM": [
         [
@@ -53,21 +53,6 @@
             "spiceSymbolName": "BH-18650-B1BA002",
             "puuid": "105d549b433940fabcf03ce5f5faeff8",
             "uuid": "36879d8c46424f27b041ee79ee2ba5d4"
-          }
-        ],
-        [
-          "100u",
-          3,
-          "CAP-D6.3×H5.5",
-          "C1,C8,C9",
-          {
-            "Contributor": "LCEDA_Lib",
-            "Supplier Part": "",
-            "Supplier": "",
-            "spiceSymbolName": "CE_SMD_D6.3×H5.5_EU",
-            "Manufacturer Part": "",
-            "puuid": "ce6db59b9ced4b0f8b498b8e74e1a0ea",
-            "uuid": "c3996a549a5644c3a3cf9255fa1ea4fc"
           }
         ],
         [
@@ -102,9 +87,9 @@
         ],
         [
           "10u",
-          2,
+          3,
           "C0603",
-          "C5,C7",
+          "C5,C7,C17",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -131,6 +116,21 @@
           }
         ],
         [
+          "100u",
+          2,
+          "CAP-D6.3×H5.5",
+          "C8,C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D6.3×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "ce6db59b9ced4b0f8b498b8e74e1a0ea",
+            "uuid": "c3996a549a5644c3a3cf9255fa1ea4fc"
+          }
+        ],
+        [
           "PJ-326-3A",
           1,
           "AUDIO-SMD_PJ-326-3A",
@@ -148,19 +148,20 @@
           }
         ],
         [
-          "1N4007W",
+          "1N5819WS",
           1,
-          "SOD-123_L2.8-W1.8-LS3.7-RD",
-          "D1",
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D2",
           {
+            "Contributor": "qarnet",
             "Supplier": "LCSC",
-            "Supplier Part": "C328592",
-            "Manufacturer": "BLUE ROCKET",
-            "Manufacturer Part": "1N4007W",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "1N4007W",
-            "puuid": "60a676d313ae48718a81c380b73dfe4f",
-            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+            "Supplier Part": "C191023",
+            "Manufacturer": "Hottech(合科泰)",
+            "Manufacturer Part": "1N5819WS",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "1N5819WS",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "2b1d6f6206f245ac8ed9756e85e50fd9"
           }
         ],
         [
@@ -287,6 +288,21 @@
           }
         ],
         [
+          "100",
+          4,
+          "R0603",
+          "R9,R10,R11,R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
           "ESP32-WROOM-32D-N4",
           1,
           "WIFIM-SMD_39P-L25.5-W18.0-P1.27",
@@ -353,16 +369,16 @@
           }
         ]
       ],
-      "updateTime": 1706709834,
+      "updateTime": 1706713435,
       "createTime": 1706701884,
       "histories": [],
       "created_at": "2024-01-31 12:51:24",
-      "updated_at": "2024-01-31 15:03:54"
+      "updated_at": "2024-01-31 16:03:55"
     }
   ],
   "sort": [],
   "title": "esp32-audio",
   "foldername": "esp32-audio",
   "schfilename": "esp32-audio.json",
-  "schfilemtime": 1706709834958
+  "schfilemtime": 1706713435870
 }
