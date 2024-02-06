@@ -4,7 +4,7 @@
   "name": "esp32-audio",
   "content": "",
   "created_at": "2024-01-31 12:51:23",
-  "updated_at": "2024-01-31 21:28:30",
+  "updated_at": "2024-01-31 21:54:16",
   "stick": "",
   "documents": [
     {
@@ -26,10 +26,10 @@
         "5cbe824183374fac8e4c1ae848199ce3": 1,
         "49467e8195dd43198f34f869d77210a6": 1,
         "5a9ec2085ad6436d86701332d4451b76": 1,
-        "5c1036b53a4146e4841df4ed0a9de8f0": 2,
         "c3996a549a5644c3a3cf9255fa1ea4fc": 2,
         "2b1d6f6206f245ac8ed9756e85e50fd9": 1,
-        "5af89e7316374029914331b8377dca08": 1
+        "5af89e7316374029914331b8377dca08": 1,
+        "4711d157c4a94bc5bf95c76f16a63d30": 2
       },
       "BOM": [
         [
@@ -210,22 +210,6 @@
           }
         ],
         [
-          "K2-3.6×6.1_SMD",
-          2,
-          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
-          "KEY1,KEY2",
-          {
-            "Supplier Part": "C118141",
-            "Supplier": "LCSC",
-            "Manufacturer Part": "K2-1107ST-A4SW-06",
-            "Contributor": "LCEDA_Lib",
-            "制造商": "韩国韩荣",
-            "spiceSymbolName": "K2-3.6×6.1_SMD",
-            "puuid": "daacbe2eec304950b61eef2efe596556",
-            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
-          }
-        ],
-        [
           "LED-0603_R",
           1,
           "LED0603_RED",
@@ -334,6 +318,22 @@
           }
         ],
         [
+          "TS5220A 160GF 025",
+          2,
+          "SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4",
+          "U2,U6",
+          {
+            "Contributor": "qarnet",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5342999",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "TS5220A 160gf 025",
+            "spiceSymbolName": "TS5220A 160GF 025",
+            "puuid": "2b8ce5eff8a742079dbaddfec7aff542",
+            "uuid": "4711d157c4a94bc5bf95c76f16a63d30"
+          }
+        ],
+        [
           "AMS1117-3.3",
           1,
           "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
@@ -384,11 +384,11 @@
           }
         ]
       ],
-      "updateTime": 1706724768,
+      "updateTime": 1706734321,
       "createTime": 1706701884,
       "histories": [],
       "created_at": "2024-01-31 12:51:24",
-      "updated_at": "2024-01-31 19:12:48"
+      "updated_at": "2024-01-31 21:52:01"
     },
     {
       "uuid": "57b1e22092dc17c2be266efaa9eb97b7",
@@ -400,6 +400,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "2b8ce5eff8a742079dbaddfec7aff542": 2,
+        "105d549b433940fabcf03ce5f5faeff8": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 14,
         "ce6db59b9ced4b0f8b498b8e74e1a0ea": 2,
         "cd2362390c7d4068b20f843ed65bf508": 1,
@@ -407,26 +409,24 @@
         "dd3cfd4941c4479cb7f2c598e6fde06c": 1,
         "bce4bcfcccfb42a296f7a392ab0b7199": 1,
         "10d2137ebe5c4377a35307dcba947a02": 1,
-        "daacbe2eec304950b61eef2efe596556": 2,
         "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
         "398691f1f785460098bbe5ee6590333c": 12,
         "d739bdb3342341d8a150960e782e6f99": 1,
         "c72e367a66e64b3fb6ce7b0bfbe00116": 1,
         "02ae667aca734971be8a5f58143dd564": 1,
-        "7069bbedface4deeb4e6a66a59ab1324": 1,
-        "105d549b433940fabcf03ce5f5faeff8": 1
+        "7069bbedface4deeb4e6a66a59ab1324": 1
       },
       "BOM": [],
-      "updateTime": 1706732910,
+      "updateTime": 1706734456,
       "createTime": 1706719193,
       "histories": [],
       "created_at": "2024-01-31 17:39:53",
-      "updated_at": "2024-01-31 21:28:30"
+      "updated_at": "2024-01-31 21:54:16"
     }
   ],
   "sort": [],
   "title": "esp32-audio",
   "foldername": "esp32-audio",
   "schfilename": "esp32-audio.json",
-  "schfilemtime": 1706724768091
+  "schfilemtime": 1706734321579
 }
